@@ -7,3 +7,30 @@
 :root{
     
 }
+.header{
+    grid-area: header;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(83, 30, 39);
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 5px 25px;
+}
+.menu{
+    height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s;
+}

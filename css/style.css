@@ -1,1 +1,89 @@
-@import url(Configuracion.css);
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #eee;
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust logo size as needed */
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .main {
+    padding: 2rem;
+  }
+  
+  .hero {
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    margin-bottom: 1rem;
+  }
+  
+  .hero button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .products {
+    margin-top: 2rem;
+  }
+  
+  .products h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .products ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .products li {
+    margin-bottom: 1rem;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #eee;
+  }
+  .logo{
+    text-decoration: none;
+    margin: 0.1vh;
+    padding: 0.1vh;
+  }
